@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Montserrat&display=swap');
+
+.font-bold {
+  font-weight: 300;
+}
+
+.font-mont {
+  font-family: 'Handjet', cursive;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-handjet {
+  font-family: 'Handjet', cursive;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Background & body pastel tone */
+body {
+  background-color: #FFF0F5; /* pastel pink-lavender */
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Headings (title) styling */
+h1, h2, .title {
+  font-family: 'Handjet', cursive;
+  color: #A084DC; /* pastel purple */
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+/* Date input pastel style */
+input[type="date"] {
+  background-color: #FFF5E4;
+  padding: 15px;
+  height: 45px;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+/* Calendar picker icon */
+::-webkit-calendar-picker-indicator {
+  background-color: #A5D8FF;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Scrollbar styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #A38426 #CBD4D7;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #F3EAC2;
+}
+*::-webkit-scrollbar-track:hover {
+  background-color: #FDF6D8;
+}
+*::-webkit-scrollbar-track:active {
+  background-color: #F1E7BA;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #B1D8B7; /* pastel green */
+}
+*::-webkit-scrollbar-thumb:hover,
+*::-webkit-scrollbar-thumb:active {
+  background-color: #A0C4B0;
+}
+
+/* Number input fix */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+@layer components {
+  .focus-animation {
+    @apply focus:outline-dashed focus:outline-2 transition-all focus:outline-offset-4;
+    outline-color: #A5D8FF;
+  }
+}
+/* Responsive tweaks */
+@media (max-width:1085px){
+  .smr {
+    @apply grid grid-flow-row gap-2 justify-center;
+  }
+  .category {
+    @apply bg-white text-black w-fit p-0.5 pl-2 pr-2;
+  }
+}
+
+@media (max-width:940px){
+  .listrr {
+    @apply grid-cols-1;
+  }
+  .flexing {
+    @apply flex-col;
+  }
+}
