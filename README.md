@@ -16,9 +16,6 @@ Front-end
 
 Database
 
-
-Netlify Status
-
 Installation
 Clone this repository
 git clone https://github.com/charishmasree6/Expense-Tracker
