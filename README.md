@@ -21,7 +21,7 @@ Netlify Status
 
 Installation
 Clone this repository
-git clone https://github.com/ihtasham42/social-media-app.git
+git clone https://github.com/charishmasree6/Expense-Tracker
 Install dependencies
 cd Expense-Tracker_Mern  
 cd frontend
