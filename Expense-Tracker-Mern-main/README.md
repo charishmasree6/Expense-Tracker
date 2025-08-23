@@ -9,12 +9,11 @@ A fully-featured Expense-Tracker WebApp , built with the MERN stack.
 ### Database 
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/960fe4d9-fc14-49af-abcd-82cd94587293/deploy-status?branch=dev)](https://app.netlify.com/sites/track-yur-expense/deploys)
-
+[
 ### Installation
 1) Clone this repository  
 ```
-git clone https://github.com/ihtasham42/social-media-app.git
+git clone https://github.com/charishmasree6/Expense-Tracker.git
 ```
 2) Install dependencies  
 ```
