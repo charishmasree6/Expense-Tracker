@@ -6,8 +6,6 @@
 - 🌐 **Modern UI**: Calming theme with minimal design.
 - 📊 **Live Updates**: Your list updates in real-time without refresh.
 - 📝 **Secure Authentication**: Includes Login and Signup forms.
-- Expense-Tracker-Mern
-A fully-featured Expense-Tracker WebApp , built with the MERN stack.
 
 Track your expenses, view reports, and stay on top of your budget — all in a visually appealing and smooth interface.
 
@@ -15,7 +13,8 @@ Track your expenses, view reports, and stay on top of your budget — all in a v
 
 👉 Track Your Expenses Now!
 
-📷 Features 🧾 Add and categorize expenses
+📷 Features:
+🧾 Add and categorize expenses
 
 📈 View your daily/monthly spending
 
